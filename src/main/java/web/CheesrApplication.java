@@ -5,7 +5,10 @@ import java.util.Collections;
 import java.util.List;
 import org.apache.wicket.Application;
 import org.apache.wicket.Page;
+import org.apache.wicket.Session;
 import org.apache.wicket.protocol.http.WebApplication;
+import org.apache.wicket.request.Request;
+import org.apache.wicket.request.Response;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
@@ -36,7 +39,6 @@ public class CheesrApplication extends WebApplication {
                 .run(args);
     }
 
-
     @Override
     protected void init() {
     }
@@ -52,5 +54,9 @@ public class CheesrApplication extends WebApplication {
 
     public List<Cheese> getCheeses() {
         return Collections.unmodifiableList(cheeses);
+    }
+
+    public Session newSession(Request request, Response response) {
+        return new CheesrSession(request);
     }
 }
