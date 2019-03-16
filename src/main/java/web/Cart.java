@@ -1,6 +1,8 @@
 package web;
 
 
+import java.util.List;
+
 public class Cart implements java.io.Serializable {
 
     private List<Cheese> cheeses new ArrayList<Cheese>();
