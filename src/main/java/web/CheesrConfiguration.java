@@ -6,7 +6,7 @@ import com.giffing.wicket.spring.boot.context.extensions.ApplicationInitExtensio
 import com.giffing.wicket.spring.boot.context.extensions.WicketApplicationInitConfiguration;
 
 @ApplicationInitExtension
-public class WicketConfiguration implements WicketApplicationInitConfiguration {
+public class CheesrConfiguration implements WicketApplicationInitConfiguration {
 
     @Override
     public void init(WebApplication webApplication) {
