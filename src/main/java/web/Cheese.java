@@ -6,6 +6,12 @@ public class Cheese implements java.io.Serializable {
     private String description;
     private double price;
 
+    public Cheese(String name, String description, double price) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+    }
+
     public String getName() {
         return name;
     }

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Cart implements java.io.Serializable {
 
-    private List<Cheese> cheeses new ArrayList<Cheese>();
+    private List<Cheese> cheeses = new ArrayList<Cheese>();
     private Address billingAddress = new Address();
 
     public List<Cheese> getCheeses() {
