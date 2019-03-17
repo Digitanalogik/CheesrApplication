@@ -39,10 +39,6 @@ public class CheesrApplication extends WebApplication {
                 .run(args);
     }
 
-    @Override
-    protected void init() {
-    }
-
     public static CheesrApplication get() {
         return (CheesrApplication) Application.get();
     }

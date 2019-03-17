@@ -10,7 +10,7 @@
   </parent>
   <groupId>wicket.in.action</groupId>
   <artifactId>web</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
   <name>CheesrApplication</name>
   <description>Cheese Store Application for Apache Wicket</description>
 
