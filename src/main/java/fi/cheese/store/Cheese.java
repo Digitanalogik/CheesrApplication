@@ -1,4 +1,4 @@
-package web;
+package fi.cheese.store;
 
 public class Cheese implements java.io.Serializable {
 

@@ -1,4 +1,4 @@
-package web;
+package fi.cheese.store;
 
 public class Address implements java.io.Serializable {
 

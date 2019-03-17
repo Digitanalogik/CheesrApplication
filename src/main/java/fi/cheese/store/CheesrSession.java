@@ -1,4 +1,4 @@
-package web;
+package fi.cheese.store;
 
 import org.apache.wicket.protocol.http.WebSession;
 import org.apache.wicket.request.Request;

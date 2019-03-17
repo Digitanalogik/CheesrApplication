@@ -1,5 +1,4 @@
-package web;
-
+package fi.cheese.store;
 
 import java.util.ArrayList;
 import java.util.List;
